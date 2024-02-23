@@ -1,0 +1,29 @@
+{
+  "name": "@kriptonio/truffle-plugin",
+  "version": "0.6.0",
+  "description": "Truffle plugin for integration with kriptonio",
+  "main": "dist/upload.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kriptonio/truffle-plugin"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "yarn run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "20.11.19",
+    "@typescript-eslint/eslint-plugin": "7.0.2",
+    "@typescript-eslint/parser": "7.0.2",
+    "eslint": "8.56.0",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "@kriptonio/sdk": "0.1.30"
+  }
+}
